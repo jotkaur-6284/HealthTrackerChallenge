@@ -1,8 +1,6 @@
 
-### link of a website (netlify)
-https://healthtrackerchallenge.netlify.app/add-workout
-
-- **GitHub**: [https://github.com/jotkaur-6284]
+### link of a website 
+**netlify**: https://healthtrackerchallenge.netlify.app
 ---
 
 ## Objective
@@ -60,5 +58,5 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## live  working 
 
 ### link of a website (netlify)
-https://healthtrackerchallenge.netlify.app/add-workout
+https://healthtrackerchallenge.netlify.app
 
