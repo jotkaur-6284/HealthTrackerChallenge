@@ -1,0 +1,40 @@
+<div class="box">
+  <div class="f">
+      Search by Name:
+      <input type="text" [(ngModel)]="searchQuery" (input)="filterWorkouts()" class="form-control" >
+  </div>
+  <div class="s">
+      Filter By Workout Type:
+      <select [(ngModel)]="selectedType" (change)="filterWorkouts()" class="form-control">
+          <option value="">All</option> 
+          <option value="GYM">GYM</option>
+          <option value="Yoga">Yoga</option>
+          <option value="Cycling">Cycling</option>
+          <option value="Running">Running</option>
+      </select>
+  </div>
+</div>
+
+<div class="container">
+  <table class="table t">
+      <thead>
+          <tr>
+              <th>Workout Name</th>
+              <th>Workout Type</th>
+              <th>Duration (mins)</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let workout of paginatedWorkouts">
+              <td>{{ workout.name }}</td>
+              <td>{{ workout.type }}</td>
+              <td>{{ workout.duration }}</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <div class="numPage">
+      <button (click)="setPage(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+      <button (click)="setPage(currentPage + 1)" [disabled]="currentPage === totalPages">Next</button>
+  </div>
+</div>

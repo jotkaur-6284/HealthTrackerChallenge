@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:transparent;
+    display: flex;
+  justify-content: space-around;
+  background-color: #bcc3d249;
+  border-radius: 5px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .topnav a:hover {
+    background-color: #2c60cf9a;
+    color: black;
+    
+    box-shadow: 5px 10px 18px #080303;
+  }
+  
+  .topnav a.active {
+    background-color: #2c5fcf;
+    color: white;
+  }

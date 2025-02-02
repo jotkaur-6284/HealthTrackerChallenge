@@ -1,0 +1,52 @@
+.t {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .t td, .t th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .t tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .t tr:hover {background-color: #ddd;}
+  
+  .t th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2c5fcf;
+    color: white;
+  }
+  .box{
+    /* border: 2px solid black; */
+    display:inline-flex;
+  }
+  .f,.s{
+    /* border: 2px solid rgb(214, 9, 9); */
+    margin: 5vh;
+  }
+  .form-control {
+        /* width: 70%; */
+        padding: 10px 15px;
+        display: inline-block;
+        background-color: #2c5fcf;
+        border: 2px solid hsl(0, 0%, 15%);
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: white;
+        font-size: larger;
+      }
+      .numPage {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 20px; 
+      }
+      
+      .numPage button {
+        margin: 0 10px; 
+      }
+      
